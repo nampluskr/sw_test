@@ -180,6 +180,7 @@ def dfs(grid, x, y):
 
 ### [Grid] BFS (Queue)
 
+```python
 def bfs(grid, x, y):
     n, m = len(grid), len(grid[0])
     
