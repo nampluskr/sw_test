@@ -1,6 +1,6 @@
 # DFS / BFS
 
-## [Graph - 인접 리스트] 방문한 노드 번호 순서대로 출력
+## [Graph - List] 방문한 노드 번호 순서대로 출력
 
 ```
 0 - 1 - 2
@@ -19,7 +19,7 @@ graph_list = [
 ]
 ```
 
-### [Graph] DFS (Recursion)
+### [Graph - List] DFS (Recursion)
 
 ```python
 def dfs(graph, x, visited=[]):
@@ -30,7 +30,7 @@ def dfs(graph, x, visited=[]):
     return visited
 ```
 
-### [Graph] DFS (Stack)
+### [Graph - List] DFS (Stack)
 
 ```python
 def dfs(graph, x):
@@ -46,7 +46,7 @@ def dfs(graph, x):
     return visited
 ```
 
-### [Graph] BFS (Queue)
+### [Graph - List] BFS (Queue)
 
 ```python
 def bfs(graph, x):
@@ -61,7 +61,7 @@ def bfs(graph, x):
     return visited
 ```
 
-## [Graph - 인접 행렬] 방문한 노드 번호 순서대로 출력
+## [Graph - Matrix] 방문한 노드 번호 순서대로 출력
 
 ```
 0 - 1 - 2
@@ -80,7 +80,7 @@ graph_matrix = [
 ]
 ```
 
-### [Graph] DFS (Recursion)
+### [Graph - Matrix] DFS (Recursion)
 
 ```python
 def dfs(matrix, x, visited=[]):
@@ -91,7 +91,7 @@ def dfs(matrix, x, visited=[]):
     return visited
 ```
 
-### [Graph] DFS (Stack)
+### [Graph - Matrix] DFS (Stack)
 
 ```python
 def dfs(matrix, x):
@@ -107,17 +107,17 @@ def dfs(matrix, x):
     return visited
 ```
 
-### [Graph] BFS (Queue)
+### [Graph - Matrix] BFS (Queue)
 
 ```python
-def bfs(graph, x):
+def bfs(matrix, x):
     visited = [x]
     queue = deque([x])
 
     while queue:
         x = queue.popleft()
-        for nx in graph[x]:
-            if nx not in visited:
+        for nx in range(len(matrix[x])):
+            if nx not in visited and matrix[x][nx] == 1:
                 visited.append(nx)
                 queue.append(nx)
     return visited
