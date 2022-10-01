@@ -147,12 +147,11 @@ dy = [0, 0, -1, 1]
 ```python
 def dfs(grid, x, y, visited=[]):
     n, m = len(grid), len(grid[0])
-    
-    visited.append((x, y))
-    for k in range(4):
-        nx, ny = x + dx[k], y + dy[k]
-    
-        if 0 <= nx < n and 0 <= ny < m:
+
+    if 0 <= x < n and 0 <= y < m:
+        visited.append((x, y))
+        for k in range(4):
+            nx, ny = x + dx[k], y + dy[k]
             if (nx, ny) not in visited:
                 visited = dfs(grid, nx, ny)
     return visited
