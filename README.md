@@ -29,6 +29,7 @@
   - [초급-중급 알고리즘 스터디 커리큘럼 추천 (3개월)](https://dev-dain.tistory.com/155?category=958917)
 * [알고리즘 문제풀이(PS) 시작하기](https://plzrun.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4PS-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
 * [2021 상반기 취준대비 코스 - 코딩테스트편](https://thinline-it.tistory.com/8)
+* 코딩하는 경제학도 [학습 내용 정리/알고리즘분석(Python)](https://ssocoit.tistory.com/category/%23%20%ED%95%99%EC%8A%B5%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EB%B6%84%EC%84%9D%28Python%29?page=2)
 
 ## [파이썬 내장함수](https://docs.python.org/ko/3/library/functions.html)
 
