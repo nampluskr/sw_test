@@ -31,6 +31,10 @@
 * [2021 상반기 취준대비 코스 - 코딩테스트편](https://thinline-it.tistory.com/8)
 * 코딩하는 경제학도 [학습 내용 정리/알고리즘분석(Python)](https://ssocoit.tistory.com/category/%23%20%ED%95%99%EC%8A%B5%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EB%B6%84%EC%84%9D%28Python%29?page=2)
 
+## 파이썬 코딩 최적화
+
+* 낙타선생 놀이터 [Python 실행속도 개선방법](https://camel-it.tistory.com/140)
+
 ## [파이썬 내장함수](https://docs.python.org/ko/3/library/functions.html)
 
 * 수치형: `int()`, `float()`, `complex()`, `bytes()`, `bool()`
